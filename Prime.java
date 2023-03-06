@@ -1,19 +1,24 @@
 public class Prime {
     public static void main (String args[]){
-        int x = 1005;
-        if (x == 0 || x == 1){
+        int num = 97;
+        if (num <2){
             System.out.println("0 and 1 are not prime nos.");
-        }else {
-            for (int i = 2; i <= x/2; i++){
+        } else{
+        int temp;
+        boolean isPrime = true;
 
-                if ((x%i) == 0){
-                    System.out.println(x +" is not prime.");
-                    break;
-                }
-                else {
-                    System.out.println(x + " is prime no.");
+        for (int i = 2; i <= num/2;i++){
+            temp = num % i;
+            System.out.println(temp);
+            if (temp == 0){
+                    isPrime = false;
                     break;
                 }
             }
-        }
-}}
+
+        if (isPrime){
+            System.out.println(num + " is a prime no.");
+        }else {
+            System.out.println(num + " is not a prime no.");
+
+}}}}
