@@ -4,6 +4,23 @@ public class Car {
     private String driver;
     private int speed;
 
+    //Adding constructor
+    public Car(){
+        doors = "Opened";
+        engine = "Off";
+        driver = "Absent";
+        speed = 0;
+    }
+
+    public Car(String doors, String engine, String driver, int speed){
+
+        this.doors = doors;
+        this.engine = engine;
+        this.driver = driver;
+        this.speed = speed;
+    }
+
+
     public void setSpeed(int speed){
         this.speed = speed;
 
