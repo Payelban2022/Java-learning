@@ -13,7 +13,9 @@ public class Demo {
                 "Bose","Petrol",4,5,80,"LED");
         System.out.println(car);
 
-
+        Truck truck = new Truck("diesel",8,3,100,"LED","power",
+                "Samsung","Samsung",2);
+        System.out.println(truck);
 
 
 
