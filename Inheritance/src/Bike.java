@@ -21,4 +21,8 @@ public class Bike extends Vehicle {
                  + ", getSeats()= " + getSeats() + ", getFuelTank()= " + getFuelTank() + " , getLights()= " + getLights()
                 + "]";
     }
+    public void run(){
+        System.out.println("Running bike");
+        System.out.println(toString());
+    }
 }

@@ -43,4 +43,7 @@ public class Vehicle {
     public int getWheels() {
         return wheels;
     }
+    public void run(){
+        System.out.println("Running vehicle");
+    }
 }

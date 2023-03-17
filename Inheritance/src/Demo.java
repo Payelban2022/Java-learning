@@ -7,7 +7,8 @@ public class Demo {
         Bike bike = new Bike("long","diesel",2,2,40,"LED");
         //System.out.println(bike.getHandle());
         //System.out.println(bike.getEngine());
-        System.out.println(bike);
+        //System.out.println(bike);
+        bike.run();
 
         Car car = new Car("electro","Bose","Samsung","Samsung",
                 "Bose","Petrol",4,5,80,"LED");
