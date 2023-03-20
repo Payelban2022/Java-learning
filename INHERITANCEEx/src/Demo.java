@@ -6,6 +6,8 @@ public class Demo {
         System.out.println(reptile.ShowInfo());
         Crocodile crocodile = new Crocodile();
         System.out.println(crocodile.ShowInfo());
+        Fish fish = new Fish();
+        System.out.println(fish.ShowInfo());
 
     }
 }

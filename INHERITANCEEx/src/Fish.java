@@ -3,19 +3,24 @@ public class Fish extends Animal {
     protected boolean gills;
 
     public Fish(){
-        heightFeet = 5;
-        weightKg = 20;
-        animalType = "Reptile";
-        bloodType = "cold";
+        heightFeet = 3;
+        weightKg = 10;
+        animalType = "Pisces";
+        bloodType = "warm";
         this.waterBone = true;
         this.gills = true;
     }
 
-    @Override
-    public String toString() {
+
+    public String ShowInfo() {
         return "Fish{" +
                 "waterBone=" + waterBone +
                 ", gills=" + gills +
+                ", heightFeet=" + heightFeet +
+                ", weightKg=" + weightKg +
+                ", animalType=" + animalType +
+                ", bloodType=" + bloodType +
+
                 '}';
     }
 }
