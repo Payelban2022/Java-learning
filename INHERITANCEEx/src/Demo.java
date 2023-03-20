@@ -8,6 +8,8 @@ public class Demo {
         System.out.println(crocodile.ShowInfo());
         Fish fish = new Fish();
         System.out.println(fish.ShowInfo());
+        Eel eel = new Eel();
+        System.out.println(eel.ShowInfo());
 
     }
 }
