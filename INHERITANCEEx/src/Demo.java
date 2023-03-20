@@ -10,6 +10,10 @@ public class Demo {
         System.out.println(fish.ShowInfo());
         Eel eel = new Eel();
         System.out.println(eel.ShowInfo());
+        Bird bird = new Bird();
+        System.out.println(bird.ShowInfo());
+        Eagle eagle = new Eagle();
+        System.out.println(eagle.ShowInfo());
 
     }
 }
