@@ -52,5 +52,10 @@ public class laptop {
     public GraphicsCard getGraphicsCard(){
         return graphicsCard;
     }
+    public String gamingMode(){
+        processor.setFrequency(processor.getMaxFrequency());
+        return "Success";
+
+    }
 
 }

@@ -55,71 +55,57 @@ public class Processor {
         return brand;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
+
 
     public String getCacheMemory() {
         return cacheMemory;
     }
 
-    public void setCacheMemory(String cacheMemory) {
-        this.cacheMemory = cacheMemory;
-    }
+
 
     public String getFrequency() {
         return frequency;
     }
 
-    public void setFrequency(String frequency) {
-        this.frequency = frequency;
-    }
+
 
     public int getCores() {
         return cores;
     }
 
-    public void setCores(int cores) {
-        this.cores = cores;
-    }
+
 
     public int getGeneration() {
         return generation;
     }
 
-    public void setGeneration(int generation) {
-        this.generation = generation;
-    }
+
 
     public String getMaxFrequency() {
         return MaxFrequency;
     }
 
-    public void setMaxFrequency(String maxFrequency) {
-        MaxFrequency = maxFrequency;
-    }
 
     public String getMinFrequency() {
         return MinFrequency;
     }
 
-    public void setMinFrequency(String minFrequency) {
-        MinFrequency = minFrequency;
-    }
+
 
     public String getSeries() {
         return series;
     }
 
-    public void setSeries(String series) {
-        this.series = series;
-    }
+
 
     public int getThreads() {
         return threads;
     }
-
-    public void setThreads(int threads) {
-        this.threads = threads;
+    public void setFrequency(String frequency) {
+        this.frequency = frequency;
     }
+
+
+
+
 }
