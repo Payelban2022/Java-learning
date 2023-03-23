@@ -3,11 +3,11 @@ public class person {
     private int age ;
     private String gender ;
 
-    public person() {
-        this.name = "John Doe";
-        this.age = 25;
-        this.gender = "Male";
-    }
+    //public person() {
+       // this.name = "John Doe";
+       // this.age = 25;
+       // this.gender = "Male";
+    //}
 
     public person(String name, int age,String gender) {
         this.name = name;
