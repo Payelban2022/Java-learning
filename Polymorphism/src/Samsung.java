@@ -1,7 +1,7 @@
-public class SamsungNote8 extends Phone{
+public class Samsung extends Phone{
 
 
-    public SamsungNote8(String model) {
+    public Samsung(String model) {
         super(model);
 
     }
