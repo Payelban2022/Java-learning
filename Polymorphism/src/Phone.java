@@ -1,10 +1,10 @@
 import scala.reflect.internal.Mode;
 
 public class Phone {
-    private String Model;
+    private String model;
 
     public Phone(String model){
-        Model = model;
+        this.model = model;
 
     }
 
@@ -14,6 +14,6 @@ public class Phone {
     }
 
     public String getModel() {
-        return Model;
+        return model;
     }
 }
