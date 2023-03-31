@@ -5,4 +5,6 @@ public class Vegan extends Person{
         System.out.println("Eats vegan food");
 
     }
+
+
 }
